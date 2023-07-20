@@ -1,0 +1,352 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #020202;
+    /* rules for the radient to use the entire of the body */
+    background-image: linear-gradient(rgb(14, 104, 14), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* set the font size of the link in the navbar */
+.nav-item a{
+    font-size: 0.8rem;
+}
+
+/*  .dropdown-container-of-link{       /*inside the nav there is a button that when clicked shows other link, each of the link is a display flex
+    display:flex;
+  }
+*/
+.dropdown-container-of-link a {
+    /* this put the text inside of a single link at the center of the Div  WORK  */
+    font-size: 0.8rem;
+}
+
+/*
+.dropdown-container-single-link{        /* this put the text inside of a single link at the center of the Div  DONT WORK
+    font-size: 0.4rem;
+} */
+
+/*this part doesn't work, but in the site it works only if the name of the link isnt too long, in case we can reduce the font of the text */
+
+
+
+
+
+.principal-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+.principal-name h1 {
+    font-size: 3.3rem;
+    color: white;
+    text-shadow:
+        0 0 5px #fff,         /*  updated the shadow beceause there were too shiny  */
+        /* 0 0 10px #fff, 
+        0 0 10px #fff,
+        0 0 20px #0ff,
+        0 0 30px #0ff, */
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff; 
+}
+
+.subtitle {
+    margin-top: 2rem;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow:
+         0 0 5px #fff,
+        /* 0 0 10px #fff, 
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff, */
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+}
+
+.bio {
+    margin-top: 3rem;
+    font-size: 0.7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0 0 3px #035305, 0 0 5px #035305;
+}
+
+.bio:hover {
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+
+}
+
+.titolo-di-sezione{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+    text-shadow:
+    0 0 5px #fff,
+   /* 0 0 10px #fff, 
+   0 0 20px #fff,
+   0 0 40px #0ff,
+   0 0 80px #0ff, */
+   0 0 90px #0ff,
+   0 0 100px #0ff,
+   0 0 150px #0ff;
+}
+
+.carousel-item img {
+    max-height: 30rem;
+    /* set the max height for every img*/
+    min-width: auto;
+}
+
+.carousel-title {
+    text-align: center;
+    font-size: 1rem;
+    max-height: 1.3rem;
+    text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 18rem;
+}
+
+.carousel-text {
+    text-align: center;
+    font-size: 0.7rem;
+    text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#carouselExampleCaptions {
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+}
+
+#carouselExampleCaptions:hover {
+    transform: scale(1.03);
+    border: solid;
+    border-color: greenyellow;
+}
+
+
+/* .first-card-row {
+    /* the first row of the card has a larger margin, because we need it */
+    /* margin-top: 8px;
+    margin-bottom: 5px;
+}  removed cause i put the margin on the title of the section */ 
+
+.card-row {
+    /* the margin of the other row */
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.card {
+    /* the poroperty of every single Card in this case the border and the max height tha a card can reach*/
+    background-color: transparent;
+    border: solid;
+    border-color: #119400;
+    max-height: 22rem;
+}
+
+
+
+.img-container {
+    /* the container of every single image in every card*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-img-top {
+    max-width: 10rem;
+    /* put the min and max height because the svg for php was different than the others so i obbligate the site to put the height of all the card at the height of 10rem */
+    min-height: 10rem;          
+    max-height: 10rem;
+    margin: 0.4rem 0;  
+    /* put the margin fo the margin between the card and the car image herself  */
+}
+
+
+.card-body p {
+    text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card-body h3 {
+    text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+    font-weight: bold;
+    text-shadow:
+    0 0 5px #fff,
+   /* 0 0 10px #fff, 
+   0 0 20px #fff,
+   0 0 40px #0ff,
+   0 0 80px #0ff, */
+   0 0 90px #0ff,
+   0 0 100px #0ff,
+   0 0 150px #0ff;
+    color: white;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1rem;
+    max-height: 1.3rem;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 0.65rem;
+}
+
+.card:hover {
+    /* animation of the card */
+    transform: scale(1.01);
+    border: solid;
+    border-color: greenyellow;
+}
+
+.divScroll {
+    /* div container of the scrolbar inside the card*/
+    margin-top: 0.7rem;
+    overflow: scroll;
+    height: 100px;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+::-webkit-scrollbar {
+    /* these four rules are for the customization of the scrollbar inside the card */
+    width: 0.5px;
+    height: 0.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+font {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* create the margin when te card go to small and tablet screen */
+    .col-md-4 {
+        margin: 5px 0px;
+    }
+
+    /*  reduce the size of the font of the name and "esperienze lavorative" on the smarthpone view */
+
+    .principal-name h1 {
+        font-size: 2rem;
+    }
+
+    .titolo-di-sezione h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/*  adjust the height of the title of the font when the screen is wider than 1000px */
+@media screen and (min-width: 1000px) {
+    .carousel-title {
+        text-align: center;
+        font-size: 1rem;
+        max-height: 1.3rem;
+        text-shadow: 0 0 3px #119400, 0 0 5px #119400;
+        font-weight: bold;
+        color: #212529;
+        margin-bottom: 18rem;
+    }
+}
+
+/*  hide the carousel when the view is in a smarthpone mode */
+@media screen and (max-width:768px) {
+    #carouselExampleCaptions {
+        display: none;
+    }
+}
+
+
+/*  all of the css for the customization of the progress bar  */
+.progress {
+    --progress: 0%;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.progress .bar {
+    width: var(--progress);
+    height: 100%;
+    background: linear-gradient(#3bb187, #37edfd, #1d48f9);
+    background-repeat: repeat;
+    box-shadow: 0 0 10px 0px #37edfd;
+    animation:
+        shine 4s ease-in infinite,
+        end 1s ease-out 1 7s;
+    transition: width 3s ease 1s;
+}
+
+@property --progress {
+    syntax: "<length>";
+    initial-value: 0%;
+    inherits: true;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 50px;
+    }
+}
+
+@keyframes end {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px 0spx #37edfd;
+    }
+
+    50% {
+        box-shadow: 0 0 15px 5px #37edfd;
+    }
+}
